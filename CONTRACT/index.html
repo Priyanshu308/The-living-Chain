@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    a:link,
+    a:visited {
+      background-color: #ffbb00;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    a:hover,
+    a:active {
+      background-color: rgb(11, 9, 0);
+      color: aliceblue;
+    }
+  </style>
+  <body>
+    <div>
+      <button
+        id="connect"
+        onclick="Connect()"
+        style="background-color: rgb(255, 196, 0)"
+        ;
+      >
+        Connect to Wallet
+      </button>
+
+      <a href="/step1.html" target="_blank">complete</a>
+    </div>
+    <script src="/block.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  </body>
+</html>
